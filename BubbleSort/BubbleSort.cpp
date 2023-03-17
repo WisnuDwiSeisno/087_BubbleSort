@@ -1,8 +1,5 @@
 #include <iostream>
 using namespace std;
-int main() {
-
-}
 int a[20];		// Deklarasi Array a dengan ukuran 20
 int n;			// Deklarasi Variabel n untuk menyimpan banyaknya elemen pada array
 
@@ -58,3 +55,11 @@ void display() {		// procedur untuk menampilkan hasil
 	}
 	cout << endl;		// output baris kosong
 }
+int main() {
+	input();
+	unsorted();
+	BubbleSortArray();
+	display();
+	return 0;
+}
+
