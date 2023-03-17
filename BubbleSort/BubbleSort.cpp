@@ -37,3 +37,13 @@ void BubbleSortArray() {		//prosedur untuk mengurutkan array dengan metide bubbl
 		}
 	}
 }
+
+void unsorted() {
+	cout << endl;		//output baris kosong
+	cout << "=================================" << endl; //Output Baris Kosong
+	cout << "Element Array yang belum tersusun" << endl;	//Output Baris layar
+	cout << "=================================" << endl; //Output Baris Kosong
+	for (int j = 0; j < n; j++) {
+		cout << a[j] << endl;
+	}
+}
